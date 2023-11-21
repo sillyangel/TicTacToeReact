@@ -68,10 +68,6 @@ export default function Game() {
     }
   }
 
-  function jumpTo(nextMove) {
-    setCurrentMove(nextMove);
-  }
-
   function reset() {
     setHistory([Array(9).fill(null)]);
     setCurrentMove(0);
